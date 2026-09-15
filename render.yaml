@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: block-puzzle-solver
+    env: docker
+    plan: free
+    healthCheckPath: /_stcore/health
